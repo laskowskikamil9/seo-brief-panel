@@ -6,6 +6,7 @@ import { textAuditSchema } from "@/lib/audit-schema";
 import { validateAuditForm } from "@/lib/audit-validation";
 
 export const runtime = "nodejs";
+export const maxDuration = 60;
 
 export async function POST(request: Request) {
   try {

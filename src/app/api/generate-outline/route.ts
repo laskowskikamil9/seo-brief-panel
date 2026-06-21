@@ -5,6 +5,7 @@ import { OUTLINE_SYSTEM_PROMPT } from "@/lib/outline-prompt";
 import { articleOutlineSchema } from "@/lib/outline-schema";
 
 export const runtime = "nodejs";
+export const maxDuration = 60;
 
 export async function POST(request: Request) {
   try {
